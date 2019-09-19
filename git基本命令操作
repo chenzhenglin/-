@@ -1,0 +1,23 @@
+git 命令使用：
+
+git clone 仓库地址
+
+git status 查看文件状态
+
+git fetch origin develop
+git diff HEAD FETCH_HEAD
+git diff HEAD FETCH_HEAD sql_version/develop/1/student.sql
+git merge origin develop
+
+
+git add 文件名  提交指定文件到缓存区
+git add -A 提交所有有变化的文件
+git add -u 提交被修改和被删除的文件，不包括新文件
+git add .  提交新文件和被修改文件，不包括被删除文件
+
+git reset  撤回已经add到缓存中的代码
+
+git commit -m 将add的文件提交到本地仓库 -m加上提交message
+git commit -a 可直接提交变化代码到本地分支
+
+git push 推送到远程分支
